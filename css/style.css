@@ -46,10 +46,6 @@ section {
 
 /*About  */
 .about {
-    background-image: url(../image/bg-about.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     padding: 100px 0;
 }
 
@@ -75,7 +71,7 @@ section {
     width: 60px;
 }
 .video-player {
-    width: 80%;
+    width: 100%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -94,4 +90,23 @@ video:focus {
     width: 100vw;
     max-width: none;
     margin: 0;
+}
+
+.sub-heading {
+    font-size: 48px;
+}
+.sub-heading2 {
+    font-size: 32px;
+}
+.desc {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: rgb(61, 61, 61);
+}
+
+.character {
+    background-image: url(../image/bg-about.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
